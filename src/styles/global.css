@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid wheat;
+  background: purple;
+}
+.list {
+  display: flex;
+  list-style: none;
+}
+.list a {
+  text-decoration: none;
+  margin-right: 2rem;
+  color: white;
+}
